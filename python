@@ -1,0 +1,22 @@
+ @Importing tkinter
+from tkinter import *
+
+ @initialising tkinter 
+top = ()
+top.geometry("400*250")
+
+@creating Label 
+uname = Label  (top, text = "username").place  (x= 30,y =50)
+
+@creating label 
+password = Label (top, text = "password"). place (x=30,y =90)
+
+@submit button 
+submitbtn = Button(top,text = "Submit", activebackgroud = "pink", activeforeground = "blue").place(x=30, y= 120)
+
+@creating entries 
+e1= Entry(top,width =20).place(x=100, y=50)
+e2= Entry(top,width =20).place(x=100, y=90)
+
+@Mainloop
+top.mainloop()
